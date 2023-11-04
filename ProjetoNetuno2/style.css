@@ -1,0 +1,313 @@
+    @charset "UTF-8";
+
+    
+    fieldset{
+        background-color: rgb(255, 255, 255);
+     margin-right: 40%;
+     margin-left: 35%;
+     text-align: center;
+    }
+
+    .imagem {
+    width: 100% ;
+    }
+
+    #titulo{
+        font-family: sans-serif;
+        font-size: 25px;
+        color: rgb(216, 216, 216);
+        margin-top: 0%;
+        
+       
+    }
+    #subtitulo {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    padding: 1%;
+    color: #3e72ff;
+    
+    }
+    
+    .superior {background-color: #ffffff;
+    border-radius: 2%;}
+    
+    
+    .grupo{
+    
+        background-color: rgb(255, 255, 255);
+        font-size: 12px;
+        font-family: 'Times New Roman', Times, serif ;
+        
+    }
+    .grupo1{
+        
+        background-color: rgb(255, 255, 255);
+        font-size: 15px;
+        
+    
+    }
+    .grupo2 {
+        font-size: 17px;
+        color: #3e72ff;
+    }
+    
+  
+
+    .campo {
+        
+        padding: 1px;
+        background-color: #007BFF;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+    
+    
+    }
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #007BFF;
+        color: #ffffff;
+        border: none;
+        border-radius: 3px;
+    }
+    
+    .campoobrigado{
+        font-size: 10px;
+        color: #3e72ff;
+    }
+    .termos { 
+        font-size: 12px;
+        color: #000000;
+
+    }
+    .segundaparte,.paragrado  {
+        background-color: white;
+        display: flex;
+    }
+   
+    .problema {
+        color: #007BFF;
+        top: 10%;
+    }
+
+
+
+    
+    
+
+
+
+    body {
+        background-color: #1b7fbd;
+        display: center;
+        width: 100%;
+    
+    }
+    .quadro { background-color: aliceblue;}
+    nav {
+        padding: 12px;
+    }
+    h1 {color: white;}
+    nav > a { color: aliceblue;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;}
+    nav > a :hover {
+        background-color: var(--cor5);
+    }
+    nav > :hover {background-color: rgb(41, 15, 158);}
+    hr {
+        padding: 15px;
+    }
+    h1 {
+        padding-top: 90px;
+        margin-block: 10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgb(177, 206, 250);
+    }
+    .container {
+        display: flex;
+        width: 100%;
+
+    }
+
+    .parte1 {
+        display: flex;
+        width: 100%;
+    }
+
+    
+
+        .form {
+            display: flex;
+            margin-bottom: 15rem;
+            display: flex;
+            border: 2px solid red;
+            justify-content: center;
+            align-items: center;
+            background-color:white;
+            flex-direction: column;
+            }
+            
+
+            .texto1 {
+    font: bolder;        
+    padding-top: 140px;
+    color: #ffffff;
+    }
+
+    .content
+ {border-radius: 15px;}
+.form {
+    width: 50%;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+}
+.caixa {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.box {
+    
+    width: 15%;
+            border: 3px solid #ccc;
+            margin: 5px; 
+            padding: 20px;
+            text-align: center;
+            border-radius: 12px;
+            background-color: #fff;
+
+}
+.box2 {
+    
+            width: 15%; 
+            border: 3px solid #ccc;
+            margin: 5px; 
+            padding: 8px;
+            text-align: center;
+            border-radius: 12px;
+            background-color: #60b1f3;
+            color: #ffffff;
+}
+
+.suajornada {
+    text-align: center;
+}
+
+.teladeconfimacao{
+            
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+            
+    
+}
+.textocadastro {
+    width: 25%; 
+            border: 4px solid #ccc;
+            margin: 2%; 
+            justify-content:center;
+            padding: 1px;
+            text-align: center;
+            border-radius: 12px;
+            background-color: #000000;
+            color: #ffffff;
+}
+
+.text {
+    color: white;
+    text-align: center;
+    margin: 5px;
+    
+}
+
+.link {
+    color: rgb(38, 0, 255);
+    text-decoration: underline;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.vector {
+    width:  100%;
+    display: flex;
+    justify-content: center;
+}
+.teste {
+    background-color: #ffffff;
+}
+
+
+.fundo2 {
+    width:  100%;
+    display: flex;
+    justify-content: center;
+    background-color:#007BFF;
+
+}
+.box3 {
+    
+    width: 15%; 
+    border: 3px solid #ccc;
+    margin: 5px; 
+    padding: 8px;
+    text-align: center;
+    border-radius: 12px;
+    background-color: #ffffff;
+    color: #000000;
+}
+.objetivo {
+    width:  100%;
+    display: flex;
+    justify-content: center;
+    background-color:#007BFF;
+}
+.rodape{
+    width:  100%;
+    display: flex;
+    justify-content: center;
+    background-color:#000000;
+}
+
+.background {
+    width:  100%;
+    display: flex;
+    justify-content: center;
+    background-color:#000000
+    
+}
+.sequencia {
+    color: #ffffff;
+    font-size: 8px;
+    border-top: 20px;
+    border: #000000;
+    width:  100%;
+    display: flex;
+    justify-content: center;
+    background-color:#000000
+    
+    
+}
+
+.passo{     
+    
+    width:  100%;
+    display: flex;
+    justify-content: center;
+    background-color:#007BFF
+
+}
+.contact {
+    color: #ffffff;
+    font-style: italic;
+    width:  100%;
+    display: flex;
+    justify-content: center;
+    background-color:#000000
+}
